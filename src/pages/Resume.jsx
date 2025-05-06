@@ -8,7 +8,7 @@ function Resume() {
       
       <a
         className="download-link"
-        href="/Koyyadi_Rohith_Reddy_Software_Developer_Resume.pdf"
+        href="/Portfolio/Koyyadi_Rohith_Reddy_Software_Developer_Resume.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
