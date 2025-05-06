@@ -1,0 +1,68 @@
+/* Resume Container */
+.resume-container {
+    background-color: #a4c5e9;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Title */
+  .resume-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle */
+  .download-pdf {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid Layout */
+  .resume-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  /* Resume Block Styling */
+  .resume-box {
+    background-color: #a4c5e9;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 3px 3px 0px black;
+    transition: transform 0.2s ease;
+  }
+  
+  .resume-box:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Headings */
+  .resume-box h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  /* Skills Block – Two Column Style */
+  .skills-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .skills-columns ul {
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+  }
+  

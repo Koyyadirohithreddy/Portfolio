@@ -1,0 +1,38 @@
+.projects-page {
+    padding: 2rem;
+    background-color: lightblue;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    background-color: #f0f8ff;
+  }
+  
+  .project-card h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-card p {
+    font-size: 0.95rem;
+  }
+  

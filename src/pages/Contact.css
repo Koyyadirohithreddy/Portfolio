@@ -1,0 +1,24 @@
+.contact-page {
+    text-align: center;
+    padding: 2rem;
+    background-color: lightblue;
+  }
+  
+  .contact-icons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .contact-icons img {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .contact-icons img:hover {
+    transform: scale(1.2);
+  }
+  
